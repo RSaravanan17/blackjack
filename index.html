@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <title>Play Blackjack!</title>
   <link rel="stylesheet" href="style.css">
-  <script src="blackjack.js"></script>
 </head>
 
 <body>
@@ -15,8 +14,8 @@
     <ul id="gameInfo"></ul>
     <div id="hitOrStand">
       <p style="font-size:130%;">What move do you want to take?</p>
-      <button id="hit" name="move" style="font-size:130%;" onclick="moveHit()">Hit</button>
-      <button id="stand" name="move" style="font-size:130%;" onclick="moveStand()">Stand</button>
+      <button id="hit" name="move" style="font-size:130%;" onclick="bj.moveHit()">Hit</button>
+      <button id="stand" name="move" style="font-size:130%;" onclick="bj.moveStand()">Stand</button>
     </div>
     <div id="deck">
       <p>Your Cards:</p>
